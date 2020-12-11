@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+    </style>
+
+    <style name="BeatBoxButton">
+       <!-- <item name="android:background">@color/dark_blue</item>  -->
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+
+    <style name="BeatBoxButton.Strong">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StrongBeatBoxButton" parent="@style/BeatBoxButton">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Platform.AppCompat" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button" parent="android:Widget">
+        <item name="android:background">@drawable/abc_btn_default_mtrl_shape</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+</resources>
